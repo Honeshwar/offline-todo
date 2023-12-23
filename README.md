@@ -1,6 +1,7 @@
 # offline-todo
 Create an offline TODO App for the browser using React JS.
 
+- Hosted link: https://offline-todo.netlify.app/
 ## Key Features Required:
 + A simple input bar to add Todo(s) on pressing the return key.
 + A list of TODO cards where each todo is appended on creation.
