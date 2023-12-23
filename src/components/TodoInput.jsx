@@ -10,6 +10,7 @@ function TodoInput() {
   const handleSubmit = (e) => {
     e.preventDefault();
     addTodoHandler(text.current.value);
+    text.current.value = "";
   };
   return (
     <form
