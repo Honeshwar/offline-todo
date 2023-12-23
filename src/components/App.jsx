@@ -1,12 +1,13 @@
-import { TodoInput, TodoList, Card, ResetButton } from "./index";
+import { TodoInput, TodoList, ResetButton } from "./index";
 
 function App() {
   return (
-    <div className="bg-yellow-500 h-screen">
-      <h1>App</h1>
+    <div className="bg-yellow-500 h-screen w-full flex flex-col gap-5 pt-5">
+      <h1 className="text-2xl text-white text-center font-bold underline">
+        Offline Todo App
+      </h1>
       <TodoInput />
       <TodoList />
-      <Card />
       <ResetButton />
     </div>
   );
